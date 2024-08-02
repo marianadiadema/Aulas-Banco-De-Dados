@@ -1,4 +1,4 @@
-//	Crie um banco de dados como o nome EtecUirapuru
+//Crie um banco de dados como o nome EtecUirapuru
 // Crie uma tabela ‘aluno’ com 6 campos
 // Insira 5 linhas 
 // Coloque um campo chamado ‘idade’ e selecione as pessoas com idade maior ou igual a 15

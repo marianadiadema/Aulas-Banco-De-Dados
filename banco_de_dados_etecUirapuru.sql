@@ -25,3 +25,8 @@ FROM aluno
 WHERE idade >= 15;
 
 DROP DATABASE etec_uirapuru;
+
+// Atualizar dados
+UPDATE aluno
+SET nome = Paulinho 
+Where id=100

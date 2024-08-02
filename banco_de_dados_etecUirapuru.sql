@@ -4,9 +4,12 @@
 // Coloque um campo chamado ‘idade’ e selecione as pessoas com idade maior ou igual a 15
 //Após, exclua o banco de dados
 
+CREATE DATABASE Etec_Uirapuru
+
   create table aluno(
     cod_aluno smallint not null,
     nome_aluno varchar(40) not null,
+    idade char (02) not null
     endereco varchar(40) null,
     cidade varchar(20) null,
     cep char (08) null,

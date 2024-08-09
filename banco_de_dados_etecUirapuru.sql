@@ -33,3 +33,9 @@ DROP DATABASE etec_uirapuru;
 UPDATE aluno
 SET nome = Paulinho 
 Where id=100
+
+// Média de valor
+SELECT AVG (salario) FROM alunos;
+
+// Selecionar maximo ou minimo
+SELECT * FROM alunos WHERE idade = (SELECT MAX (idade) FROM alunos)
